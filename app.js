@@ -8,8 +8,8 @@ do {
   parseFloat(gallons);
   if (!isNaN(miles) && miles > 0 && !isNaN(gallons) && gallons > 0) {
     var mpg = miles/gallons;
-    parseInt(mpg);
-    alert('Your calculated miles per gallon is ' + mpg);
+    mpg = parseInt(mpg);
+    alert('Your calculated miles per gallon is = ' + mpg);
   } else {
     alert('One of your entries is incorrect.');
   }
